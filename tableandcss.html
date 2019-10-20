@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #t1,
+        td {
+            border: 4px solid rgb(13, 206, 29);
+            border-collapse: collapse;
+            width: 300px;
+            height: 100px;
+            background-color: aqua;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        tbody {
+            border: 8px solid pink;
+        }
+
+        #ttt {
+            font-size: 30px;
+        }
+
+        form {
+            background-color: burlywood;
+        }
+
+        #firstnamee {
+            background-color: cornflowerblue;
+        }
+
+        /* #t2, #tr2{
+        border: 2px solid rgb(31, 28, 30);
+        border-collapse: collapse;
+    } */
+    </style>
+</head>
+
+<body style="background-color: rgb(67, 110, 110);">
+    <table id="t1">
+        <tbody>
+            <tr>
+                <td colspan="2">ohayo</td>
+                <!-- <td>1</td> -->
+                <td rowspan="2">konichiwa</td>
+            </tr>
+            <tr>
+                <td>arigatou</td>
+                <td id="ttt">gomen</td>
+                <!-- <td>1</td> -->
+            </tr>
+        </tbody>
+
+    </table>
+    <!-- <br><br><br>
+    <table id="t2" border="1" style="width: 200px;height: 200px">
+        <tr>
+            <td>12</td>
+            <td>12</td>
+            <td>12</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td>12</td>
+            <td>12</td>
+            <td>12</td>
+        </tr>
+    </table> -->
+    <div>
+        <form>
+            First name: <br>
+            <input id="firstnamee" type="text" name: "firstname"> <br>
+            last name: <br>
+            <input type="text" name: "lastname"> <br>
+            Password: <br>
+            <input type="password"> <br>
+            email: <br>
+            <input type="email">
+        </form>
+    </div>
+
+    <div>
+        <!--  putting image you get the image address not the link to the image -->
+        <img src="https://i.pinimg.com/236x/de/61/57/de6157b8c7ca63af146fdc93435f4a06.jpg" height="200" width="250"
+            alt="yoriichi tsugikuni">
+        <video src="vid/All Falls Down.MP4" height="200" width="200" controls> video not support desu</video>
+        </video>
+        <!-- putting link on the video -->
+        <a href="https://www.youtube.com/watch?v=RzhAS_GnJIc&list=RDMMRzhAS_GnJIc&start_radio=1"><video
+                src="vid/All Falls Down.MP4" height="200" width="200" controls> video not support desu</video>
+            </video></a>
+
+        <!-- putting youtube video you need to goto youtube and click share click embebb and copy the link and paste it here -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/IHENIg8Se7M" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h1>My <span style="color:red">Important</span> Heading</h1>
+    </div>
+
+    <div>
+        <Form action>
+            <!-- placeholder att use to display text like fb login -->
+            firstname: <input type="text" name="Firstname" placeholder="Firstnames"> <br>
+            lastname: <input type="text" name="Lastname"> <br>
+            Password: <input type="password" name="ps">
+            <br>
+            <!--  value = "male" is a value we get when we get it value the "Male" outside is the display text -->
+            <!-- note radio user can only check 1 value  -->
+            <input type="radio" name="sex" value="male"> Male <br>
+            <input type="radio" name="sex" value="female"> Female
+            <br><br>
+            <!-- checkboc allow user to check as many box they like -->
+            <input type="checkbox" name="vehicle" value="car"> i have a char
+            <br>
+            <input type="checkbox" name="vehicle" value="bike"> i have a bike
+            <br>
+            <input type="checkbox" name="vehicle" value="plane"> i have a plane
+            <br>
+            <!-- ot ton mean action oy form ot mean nak recieve right now submit button is useless -->
+            <input type="submit" value="SUBmit">
+        </Form>
+    </div>
+    <div>
+        <br><br>
+        <!-- see how iframe have a name for itself -->
+        <iframe src="https://kissanime.ru" name="iframe_a" frameborder="0"></iframe>
+        <br>
+        <!-- a href must have target name of iframe -->
+        <a href="https://kissanime.ru/Anime/Shinchou-Yuusha-Kono-Yuusha-ga-Ore-Tuee-Kuse-ni-Shinchou-Sugiru"
+            target="iframe_a">W3Schools.com</a>
+        <br><br>
+        <iframe src="https://kissanime.ru/" width="200" height="200"></iframe>
+        <br><br><br>
+
+    </div>
+
+   
+
+    <br><br><br><br>
+</body>
+
+</html>

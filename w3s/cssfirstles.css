@@ -1,0 +1,64 @@
+h2 {
+    color: rgb(92, 67, 67);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 150%;
+    border: 2px solid rgb(6, 243, 6);
+    padding: 30px;
+    margin: 50px;
+}
+
+#p01 {
+    color: indigo;
+    text-align: center;
+    font-size: 400%;
+}
+
+p.erer {
+    color: rgb(119, 88, 88);
+}
+
+body {
+    background: grey;
+}
+
+#a01:link {
+    color: green;
+    background-color: brown;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 25px;
+     /*  display inline block mak eit to button shape and padding fix the size we want */
+
+}
+
+#a01:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#a01:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+#a01:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+#yt:link,#yt:visited{
+    background-color: #f44336;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#yt:hover,#yt:active{
+    background-color: red;
+}
