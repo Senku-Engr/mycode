@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>hello we are testing javascript in html</h2>
+    <p id="demo"></p>
+
+    <h1 id="demoo"></h1>
+
+    <h2 id="demo03"></h2>
+    <h1 id="demo04">waga na wa megumin</h1>
+
+    <!-- the following code we use javascript to write hello welcome to hell -->
+    <script>
+        document.getElementById("demo").innerHTML = "hello welcome to hell";
+
+        document.getElementById("demoo").innerHTML = "good morning";
+        document.getElementById("demo03").innerHTML = "night";
+
+    </script>
+
+    <script>
+        function mefunction() {
+            document.getElementById("demo04").style.fontSize = "25px";
+            document.getElementById("demo04").style.backgroundColor = "yellow";
+            document.getElementById("demo04").style.color = "red";
+        }
+        // this function using javascript change the src of image that have id  img001
+        function meimg() {
+            document.getElementById("img001").src = "https://s-media-cache-ak0.pinimg.com/originals/c1/26/35/c12635b330c09bd3eeb3d61d6d38e1b0.jpg";
+        }
+    </script>
+    <button type="button" onclick="mefunction()"> click to change color</button>
+    <img src="http://pm1.narvii.com/6071/7c440396c31b02eaaaa75c496b0b607394697e10_00.jpg" alt="oreki" width="200px"
+        height="150px" id="img001">
+    <button type="button" onclick="meimg()"> change image</button>
+</body>
+
+</html>
