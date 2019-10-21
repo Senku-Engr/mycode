@@ -1,0 +1,154 @@
+<!-- <!DOCTYPE HTML>
+<html lang="en">
+<html lang="bn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+
+    <title>www.creator's.com</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        input {
+            border-radius: 0px;
+            2px solid black;
+        }
+
+        #content2 {
+            visibility: hidden;
+        }
+
+        #content1 {
+            position: absolute;
+            width: 100%;
+            height: 35px;
+        }
+
+        #content3 {
+            visibility: visible;
+            z.index: 1;
+        }
+
+        #in1,
+        #in3 {
+            width: 79%;
+            padding: 0px 0.5% 0px 0.5%;
+            left: 0px;
+            height: 32px;
+        }
+
+        #in2,
+        #in4 {
+            width: 20%;
+            text-align: center;
+            right: 0px;
+            height: 35.3px;
+            background-color: black;
+            color: white;
+        }
+
+        #in1,
+        #in2,
+        #in3,
+        #in4 {
+            position: absolute;
+            font-size: 17px;
+            font-family: serif;
+            border: 2px solid black;
+        }
+
+        #content2,
+        #content3 {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: white;
+        }
+
+        #back {
+            width: 55px;
+            height: 30px;
+            font-size: 17px;
+            font-family: serif;
+            color: white;
+            background-color: black;
+            bottom: 0px;
+            position: fixed;
+            right: 0px;
+            text-align: center;
+        }
+
+        #txt {
+            padding: 56px 5px 35px 5px;
+            background-color: rgb(240, 240, 240);
+            border: 2px solid black;
+        }
+
+        #ptxt {
+            font-size: 17px;
+            font-family: sent-serif;
+        }
+
+        p13 {
+            color: red;
+        }
+    </style>
+    <script>
+        function event1() {
+            var cngpg = document.getElementById("content2");
+            cngpg.id = "content3";
+            var a = document.getElementById("in1").value;
+            document.getElementById("ptxt").innerHTML = a;
+        }
+
+        function event2() {
+            var b = document.getElementById("in3").value;
+            var c = document.getElementById("ptxt").innerHTML;
+            d = "<p13>" + b + "</p13>";
+            var f = c.replace(b, d);
+            document.getElementById("ptxt").innerHTML = f;
+        }
+
+        function event3() {
+            var bk = document.getElementById("content3");
+            bk.id = "content2";
+        }
+    </script>
+    <noscript>
+        <p class="noscript">Please Enable JavaScript in your browser Or please use javascript supported browser.
+        </p>
+    </noscript>
+</head>
+
+<body>
+    <div id="content1">
+        <input type="text" id="in1">
+        <input type="button" id="in2" value="Add" onclick="event1()">
+    </div>
+
+    <div id="content2">
+        <div id="sc2">
+            <input type="text" id="in3">
+            <input type="button" id="in4" value="Search" onclick="event2()">
+        </div>
+        <div id="txt">
+            <pre>
+<p id="ptxt">
+</p>
+</pre>
+        </div>
+        <div id="back" onclick="event3()">
+            Back
+        </div>
+    </div>
+</body>
+
+</html> -->
